@@ -60,6 +60,7 @@ public class MainActivity extends AppCompatActivity
 
         myRef.setValue("Hello, Firebase!");
 
+
         myRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
